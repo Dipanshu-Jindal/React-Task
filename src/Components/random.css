@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* margin-left: 15%; */
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+.field{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.field > label {
+    margin-bottom: 10px;
+}
+
+/* .field > textarea {
+    margin-bottom: 1rem;
+} */
+
+.heading{
+    margin-top: 1rem;
+}

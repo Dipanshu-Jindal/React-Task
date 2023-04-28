@@ -1,0 +1,23 @@
+.topNav{
+    display: flex;
+    align-items: center ;
+    /* justify-content: center; */
+    width: 97%;
+    font-family: 'Libre Baskerville', serif;
+    height: 80px;
+    background-color: antiquewhite;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.shop{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.topGlass{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: 5rem;
+    padding: 1rem;
+}
